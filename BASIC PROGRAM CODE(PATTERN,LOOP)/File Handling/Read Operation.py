@@ -1,0 +1,8 @@
+file = open('File_Handling.txt')
+#data = file.read()
+#file.seek(20)
+#data = file.read(50)
+#data = file.readline()
+data = file.readlines()
+print(data)
+file.close()
